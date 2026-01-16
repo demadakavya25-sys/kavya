@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <h2 class="logo">MyWebsite</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Register</h2>
+            <form action="">
+
+
+                <div>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" id="username" placeholder="Enter Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email" required>
+                </div>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                </div>
+                <div>
+                    <label for="password">Conform Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required>
+                </div>
+
+
+                <div class="gender">
+                    <label>Gender:</label>
+                    <label>
+                        <input type="radio" name="gender">Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">Others
+                    </label>
+                </div>
+
+                <select required>
+                    <option value="">Select the Country</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Japan</option>
+                    <option>Korea</option>
+                    <option>China</option>
+                    <option>Australia</option>
+                </select>
+
+                <button type="submit">Register</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

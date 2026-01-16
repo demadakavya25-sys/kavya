@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.navbar {
+    background-color: rgba(244, 33, 33, 0.934);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgba(10, 71, 114, 0.949);
+    text-decoration: double;
+    margin-left: 40px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: rgb(212, 193, 255);
+    width: 380px;
+    height: auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+form input:focus {
+    outline: auto;
+    border-color: #333;
+}
+ 
+form select:focus {
+    outline: auto;
+    border-color: #333;
+}
+
+.gender {
+    margin-bottom: 15px;
+}
+
+.gender label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="radio"] {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(38, 38, 250);
+    color: beige;
+    font-size: large;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(13, 148, 9);
+}
